@@ -1,9 +1,9 @@
-#Includes
+# Includes
 require 'sinatra'
 require 'erb'
 require 'helpers.rb'
-#
-
+# Documentation: http://www.sinatrarb.com/
+# Run Locally: ruby -rubygems core.rb
 
 # Index Page
 get '/' do

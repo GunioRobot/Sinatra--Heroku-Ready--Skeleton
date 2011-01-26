@@ -1,4 +1,8 @@
 Open a command line and go to *this* folder.. (e.g. 'cd /Users/ThinkGareth/Desktop/SinatraTest')
+To run this locally:
+	ruby -rubygems core.rb
+
+Open a web browser and goto http://localhost:4567/
 
 
 For Heroku deployment type the following lines in the command line. Each line should be executed by pressing return:

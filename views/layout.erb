@@ -1,0 +1,15 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title><%= @title %></title>
+		<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+		<script src="/js/scripts.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<%= partial(:_navigation) %>
+		
+		<%= yield %>
+	</body>
+
+</html>

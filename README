@@ -1,0 +1,18 @@
+Open a command line and go to *this* folder.. (e.g. 'cd /Users/ThinkGareth/Desktop/SinatraTest')
+
+
+For Heroku deployment type the following lines in the command line. Each line should be executed by pressing return:
+
+	git init
+	git add .
+	git commit -a -m "All the core bits and bobs.."
+
+Setup Heroku
+You'll need a free http://heroku.com account
+
+	sudo gem install heroku
+	heroku create my-website-name
+	git push heroku master
+	heroku open
+	
+And you should be done!
